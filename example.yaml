@@ -1,0 +1,14 @@
+---
+connections:
+  outcomes:
+    profits:
+    reputation: sales+
+
+  causes:
+    nefarious_tactics: profits+ reputation-
+    sales: profits+
+    marketing: profits- reputation+
+
+rendering:
+  outcomes: box
+  causes: plain
